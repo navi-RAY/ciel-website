@@ -236,7 +236,8 @@ nav a.nav-active {
   top: 50%;
   transform: translateY(-50%) scaleX(-1);
   width: clamp(260px, 40vw, 560px);
-  opacity: 0.055;
+  opacity: 0.09;
+  filter: invert(1);
   pointer-events: none;
 }
 
